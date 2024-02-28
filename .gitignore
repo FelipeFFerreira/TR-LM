@@ -1,170 +1,45 @@
-# System configuration files and directories
-*.log
-*.temp
-*.tmp
-*.o
-*.swp
-.DS_Store
-Thumbs.db
-
-# Build and compilation directories
-/build/
-/debug/
-/release/
-/synthesis/
-/implementation/
-/.Xil/
-/_x/
-
-# Vivado-specific files
-*.jou
-*.str
-*.xml
-*.xpr
-*.lso
-*.log
-*.dbg
-*.dly
-*.cfi
-*.bit
-*.bin
-*.bif
+# vivado
 **/.metadata/**
-*/
-# gitignore template for Xilinx Vivado Design Suite
-# website: https://www.xilinx.com/support/download.html
+**/_ide/**
+**/ip/**
+**/.jobs/**
+**/impl_1/**
+**/synth_1/**
+**/bd/**
+**/wt/**
+**/bd/**
+/**/hw/**/*ds*/**
+/**/hw/**/*pc*/**
+/**/hw/**/*runs*/**
+/**/hw/**/*sim*/**
+/**/hw/**/*wrapper*/**
+/**/hw/**/*system*/**
+/**/hw/**/*ip*/**
+/**/hw/**/*hw*/**
 
-# [home]
-*.jou
-*.log
-*.debug
-*.str
-*.zip
-*.tmp
-*.rst
-*.os
-*.js
-*.pb
-*.dcp
-*.hwdef
-*.vds
-*.veo
-*.wdf
-*.vdi
-*.dmp
-*.rpx
-*.rpt
-*_stub.v
-*_stub.vhdl
-*_funcsim.v
-*_funcsim.vhdl
-.project
+/**/hw/**/*.sh
+/**/hw/**/*.rpt
+/**/hw/**/*.rst
+/**/hw/**/*.log
+/**/hw/**/*.jou
+/**/hw/**/*.pb
+/**/hw/**/*.vds
+/**/hw/**/*.dcp
+/**/hw/**/*.prj
+/**/hw/**/*.ld
+/**/hw/**/*.c
+/**/hw/**/*.h
+/**/hw/**/*.spec
+/**/hw/**/*.cproject
+/**/hw/**/*.project
+/**/hw/**/*.sprj
+/**/hw/**/*.js
+/**/hw/**/*.xpr
+/**/hw/**/*.xsa
+/**/hw/**/*.analytics
 
-# [dir]
-*.cache
-.metadata
-*.data
-*.ipdefs
-.Xil
-*.sdk
-*.hw
-*.ip_user_files
 
-### IP synth
-*_synth_*
+#petalinux
+TR-1/sw/vitis
 
-.jobs
-
-### project synth
-*/*.runs/synth*/*.xml
-*/*.runs/synth*/*.txt
-*/*.runs/synth*/*.sh
-*/*.runs/synth*/*.tcl
-*/*.runs/synth*/*.bat
-*/*.runs/synth*/*.xdc
-!*/*.runs/synth*/*utilization*.rpt
-
-*.runs/synth*/*.xml
-*.runs/synth*/*.txt
-*.runs/synth*/*.sh
-*.runs/synth*/*.tcl
-*.runs/synth*/*.bat
-*.runs/synth*/*.xdc
-!*.runs/synth*/*utilization*.rpt
-
-### project impl
-*/*.runs/impl*/*.xml
-*/*.runs/impl*/*.html
-*/*.runs/impl*/*.txt
-*/*.runs/impl*/*.sh
-*/*.runs/impl*/*.tcl
-*/*.runs/impl*/*.bat
-!*/*.runs/impl*/*utilization*.rpt
-
-*.runs/impl*/*.xml
-*.runs/impl*/*.html
-*.runs/impl*/*.txt
-*.runs/impl*/*.sh
-*.runs/impl*/*.tcl
-*.runs/impl*/*.bat
-!*.runs/impl*/*utilization*.rpt
-
-### block design
-*/*/bd/*/hdl
-*/*/*/bd/*/hdl
-
-*/*/bd/*/*.xdc
-*/*/*/bd/*/*.xdc
-
-*/*/bd/*/ip/*/*.xdc
-*/*/*/bd/*/ip/*/*.xdc
-
-*/*/bd/*/ip/*/*/
-*/*/*/bd/*/ip/*/*/
-
-*/*/bd/*/ip/*/*.vhd
-*/*/*/bd/*/ip/*/*.vhd
-
-*/*/bd/*/ip/*/*.xml
-*/*/*/bd/*/ip/*/*.xml
-
-*.c
-*.h
-*.vho
-*.html
-*/*/bd/*/ip/*/*.tcl
-*/*/*/bd/*/ip/*/*.tcl
-hw_handoff
-ipshared
-# PetaLinux specific files
-/project-spec/meta-user/
-/build/
-/tmp/
-/sstate-cache/
-/downloads/
-*.sdk
-*/*/config.old
-*/*/rootfs_config.old
-build/
-images/linux/
-pre-built/linux/
-.petalinux/*
-!.petalinux/metadata
-*.o
-*.jou
-*.log
-/components/plnx_workspace
-/components/yocto
-
-# Arquivos específicos do Vitis
-/.metadata/
-/RemoteSystemsTempFiles/
-/.cproject
-/.project
-
-# Folders and files generated during development
-.idea/
-*.launch
-*.cache
-.vscode/
 
